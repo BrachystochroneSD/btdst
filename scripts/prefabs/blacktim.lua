@@ -15,7 +15,7 @@ local start_inv =
 }
 
 local function doHappinessDamage(inst)
-    local HAPPYRATE = 1
+    local HAPPYRATE = .1
     if inst.components.health then
         inst.components.health:DoDelta(-HAPPYRATE, false, "happiness")
     end
@@ -26,7 +26,7 @@ local function becomeveryhappy(inst)
         return
     end
 
-    inst.components.skinner:SetSkinMode("happy_skin", "blacktim_happy")
+    inst.components.skinner:SetSkinMode("very_happy_skin", "blacktim_very_happy")
     inst.components.talker:Say(GetString(inst, "ANNOUNCE_BECOMEVERYHAPPY"))
 
     if inst.happinessdot ~= nil then
