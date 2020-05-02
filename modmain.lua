@@ -44,7 +44,7 @@ local STRINGS = GLOBAL.STRINGS
 STRINGS.CHARACTER_TITLES.blacktim = "Black Tim"
 STRINGS.CHARACTER_NAMES.blacktim = "BTM"
 STRINGS.CHARACTER_DESCRIPTIONS.blacktim = "*His World is full of darkness\n*Sometimes he think about Happiness\n*Happiness is a warm gun"
-STRINGS.CHARACTER_QUOTES.blacktim = "\"My workd is full of Darkness\""
+STRINGS.CHARACTER_QUOTES.blacktim = "\"My world is full of Darkness\""
 
 -- Custom speech strings
 STRINGS.CHARACTERS.BLACKTIM = require "speech_blacktim"
