@@ -155,13 +155,15 @@ local master_postinit = function(inst)
         inst.happinessdot = nil
 
         inst.components.sanity.night_drain_mult = 0
-        inst.components.sanity.neg_aura_mult = 0.7
+        inst.components.sanity.neg_aura_mult = 0.6
 
 	-- Uncomment if "wathgrithr"(Wigfrid) or "webber" voice is used
-    --inst.talker_path_override = "dontstarve_DLC001/characters/"
+        --inst.talker_path_override = "dontstarve_DLC001/characters/"
+
+        inst.components.grue:SetResistance(2) -- resistance to charlie
 
 	-- Stats
-	inst.components.health:SetMaxHealth(75)
+	inst.components.health:SetMaxHealth(125)
 	inst.components.hunger:SetMax(150)
 	inst.components.sanity:SetMax(150)
 
