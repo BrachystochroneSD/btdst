@@ -160,7 +160,7 @@ local master_postinit = function(inst)
 	-- Uncomment if "wathgrithr"(Wigfrid) or "webber" voice is used
         --inst.talker_path_override = "dontstarve_DLC001/characters/"
 
-        inst.components.grue:SetResistance(2) -- resistance to charlie
+        inst.components.grue:SetResistance(1) -- resistance to charlie
 
 	-- Stats
 	inst.components.health:SetMaxHealth(125)
