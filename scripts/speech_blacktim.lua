@@ -221,9 +221,9 @@ return {
 
 	ANNOUNCE_BEES = "BEEEEEEEEEEEEES!!!!",
 	ANNOUNCE_BOOMERANG = "Ow! I should try to catch that!",
-	ANNOUNCE_CHARLIE = "That presence... it's familiar! Hello?",
-	ANNOUNCE_CHARLIE_ATTACK = "OW! Something bit me!",
-	ANNOUNCE_CHARLIE_MISSED = "only_used_by_winona", --winona specific
+	ANNOUNCE_CHARLIE = "Oh, hello ma'am.",
+	ANNOUNCE_CHARLIE_ATTACK = "Ow! Why so much hatred?",
+	ANNOUNCE_CHARLIE_MISSED = "Do you want something from me?", --winona specific
 	ANNOUNCE_COLD = "So cold!",
 	ANNOUNCE_HOT = "Need... ice... or... shade!",
 	ANNOUNCE_CRAFTING_FAIL = "I'm missing a couple key ingredients.",
